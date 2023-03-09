@@ -1,5 +1,34 @@
 <!doctype html>
 <html lang="en-us">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="page2.html">Max Temperature</a>
+            <a class="dropdown-item" href="page3.html">Humidity</a>
+            <a class="dropdown-item" href="page4.html">Cloudiness</a>
+            <a class="dropdown-item" href="page5.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="page6.html">Comparison<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page7.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <head>
     <meta charset="utf-8">
     <title>City Latitude vs. Wind Speed</title>
@@ -14,7 +43,7 @@
     <main class="container">
       <section id="landing-description">
         <section id="main-text">
-          <h2 id="main-description">City Latitude vs. Max Temperature</h2>
+          <h2 id="main-description">City Latitude vs. Wind Speed</h2>
         </section>
         <img src="Resources/assets/images/Fig4.png" alt="Chart showing city latitude versus wind speed." width="500" height="300" class="chart-image">
         <p>Latitude does not appear to have much of a relationship with wind speed. Wind speed is more closely related to topography than closeness to the poles.</p>
